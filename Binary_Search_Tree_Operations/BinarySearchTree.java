@@ -44,6 +44,7 @@ Node root=null;  // root node
         return false;
     }
     
+    // Returns the smallest node in the right sub tree
     public Node findSmallest(Node a){
     Node temp = a.right;
     if(isLeaf(temp)) return temp;

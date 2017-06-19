@@ -62,11 +62,15 @@ int heightOfTree(Node a){
         return false;
     }
     
-    // Returns the smallest node in the right sub tree
     public Node findSmallest(Node a){
     Node temp = a.right;
     if(isLeaf(temp)) return temp;
-    Node parent = temp;
+    Node parent = a;
+    if(temp.left==null){
+    parent.right = temp.right;
+    return temp;
+    }
+    parent = temp;
     while(true){
     temp = temp.left;
     if(temp.left == null){
@@ -220,4 +224,3 @@ int heightOfTree(Node a){
     }
     
 }
-

@@ -14,7 +14,7 @@ ________________________________________________________________________________
 
 In-order traversing: 12 16 20 25 32 35 40
 
-Pre-order traversing: 32 16 12 25 20 40 35
+Pre-order traversing: 32 20 12 16 25 35 40
 
 Post-order traversing: 16 12 25 20 40 35 32
 
@@ -24,17 +24,37 @@ Enter node you want to delete: 16
 
 In-order traversing: 12 20 25 32 35 40
 
-Pre-order traversing: 32 12 25 20 40 35
+Pre-order traversing: 32 20 12 25 35 40
 
 Post-order traversing: 12 25 20 40 35 32
 
 Height of tree: 2
 
---------------------------------------------------
+-------------------------------------------------
 
 In-order traversing: 12 16 20 25 32 35 40
 
-Pre-order traversing: 32 16 12 25 20 40 35
+Pre-order traversing: 32 20 12 16 25 35 40
+
+Post-order traversing: 16 12 25 20 40 35 32
+
+Height of tree: 3
+
+Enter node you want to delete: 32
+
+In-order traversing: 12 16 20 25 35 40
+
+Pre-order traversing: 35 20 12 16 25 40
+
+Post-order traversing: 16 12 25 20 40 35
+
+Height of tree: 3
+
+-------------------------------------------------
+
+In-order traversing: 12 16 20 25 32 35 40
+
+Pre-order traversing: 32 20 12 16 25 35 40
 
 Post-order traversing: 16 12 25 20 40 35 32
 
@@ -44,7 +64,7 @@ Enter node you want to delete: 35
 
 In-order traversing: 12 16 20 25 32 40
 
-Pre-order traversing: 32 16 12 25 20 40
+Pre-order traversing: 32 20 12 16 25 40
 
 Post-order traversing: 16 12 25 20 40 32
 
@@ -54,7 +74,7 @@ Height of tree: 3
 
 In-order traversing: 12 16 20 25 32 35 40
 
-Pre-order traversing: 32 16 12 25 20 40 35
+Pre-order traversing: 32 20 12 16 25 35 40
 
 Post-order traversing: 16 12 25 20 40 35 32
 
@@ -64,12 +84,12 @@ Enter node you want to delete: 12
 
 In-order traversing: 16 20 25 32 35 40
 
-Pre-order traversing: 32 16 25 20 40 35
+Pre-order traversing: 32 20 16 25 35 40
 
 Post-order traversing: 16 25 20 40 35 32
 
 Height of tree: 2
 
-------------------------------------------------
+-------------------------------------------------
 
 ## Happy Coding

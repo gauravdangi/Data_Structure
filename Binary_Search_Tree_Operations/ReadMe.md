@@ -12,48 +12,43 @@ It is a special type of binary tree data structure that satisfies the following 
 
 ______________________________________________________________________________________
 
-In-order traversing: 1 2 3 4 5 7 8
+In-order traversing: 12 16 20 25 32 35 40
+Pre-order traversing: 32 16 12 25 20 40 35
+Post-order traversing: 16 12 25 20 40 35 32
+Height of tree: 3
+Enter node you want to delete: 16
 
-Pre-order traversing: 3 2 1 7 8 5 4
+In-order traversing: 12 20 25 32 35 40
+Pre-order traversing: 32 12 25 20 40 35
+Post-order traversing: 12 25 20 40 35 32
+Height of tree: 2
 
-Post-order traversing: 2 1 7 8 5 4 3
+--------------------------------------------------
 
-Enter node you want to delete: 1
+In-order traversing: 12 16 20 25 32 35 40
+Pre-order traversing: 32 16 12 25 20 40 35
+Post-order traversing: 16 12 25 20 40 35 32
+Height of tree: 3
+Enter node you want to delete: 35
 
-In-order traversing: 2 3 4 5 7 8
+In-order traversing: 12 16 20 25 32 40
+Pre-order traversing: 32 16 12 25 20 40
+Post-order traversing: 16 12 25 20 40 32
+Height of tree: 3
 
-Pre-order traversing: 3 2 7 8 5 4
+-------------------------------------------------
 
-Post-order traversing: 2 7 8 5 4 3
+In-order traversing: 12 16 20 25 32 35 40
+Pre-order traversing: 32 16 12 25 20 40 35
+Post-order traversing: 16 12 25 20 40 35 32
+Height of tree: 3
+Enter node you want to delete: 12
 
-________________________________________________________________________________________
+In-order traversing: 16 20 25 32 35 40
+Pre-order traversing: 32 16 25 20 40 35
+Post-order traversing: 16 25 20 40 35 32
+Height of tree: 2
 
-In-order traversing: 1 2 3 4 5 7 8
+------------------------------------------------
 
-Pre-order traversing: 3 2 1 7 8 5 4
-
-Post-order traversing: 2 1 7 8 5 4 3
-
-Enter node you want to delete: 7
-
-In-order traversing: 1 2 3 4 5 8
-
-Pre-order traversing: 3 2 1 8 5 4
-
-Post-order traversing: 2 1 8 5 4 3
-
-________________________________________________________________________________________
-
-Pre-order traversing: 3 2 1 7 8 5 4
-
-Post-order traversing: 2 1 7 8 5 4 3
-
-Enter node you want to delete: 6
-
-6 is not present in the list
-
-In-order traversing: 1 2 3 4 5 7 8
-
-Pre-order traversing: 3 2 1 7 8 5 4
-
-Post-order traversing: 2 1 7 8 5 4 3
+## Happy Coding

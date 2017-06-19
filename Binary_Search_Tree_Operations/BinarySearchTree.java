@@ -179,8 +179,8 @@ int heightOfTree(Node a){
     if(r==null)
         return;
     System.out.print(" "+r.value);
-    postOrder(r.left);
-    postOrder(r.right);
+    preOrder(r.left);
+    preOrder(r.right);
     
     }
     public int height(){

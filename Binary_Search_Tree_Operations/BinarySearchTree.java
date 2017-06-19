@@ -5,6 +5,24 @@ import java.util.Scanner;
  */
 public class BinarySearchTree {
 Node root=null;  // root node
+
+// returns maximum value
+int max(int a, int b){
+ return a>b?a:b;
+}
+
+int heightOfTree(Node a){
+ Node temp = a;
+ int h=0;
+ if(temp!=null){
+  if(temp.left!=null)
+      h = 1+heightOfTree(temp.left);
+  if(temp.right!=null)
+      h = max(h,1 + heightOfTree(temp.right));
+ }
+ return h;
+}
+
 // ------------------------- add Node method ---------------------------------------
     public void addNode(int a){
   
@@ -58,8 +76,7 @@ Node root=null;  // root node
     parent = temp;
     }
     
-    }
-    
+    }  
     public boolean isLeaf(Node a){
      if(a.left == null && a.right == null) return true;
      else return false;
@@ -166,17 +183,20 @@ Node root=null;  // root node
     postOrder(r.right);
     
     }
+    public int height(){
+     return(heightOfTree(root));
+    }
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         BinarySearchTree tree = new BinarySearchTree();
-        tree.addNode(3);
-        tree.addNode(4);
-        tree.addNode(5);
-        tree.addNode(1);
-        tree.addNode(8);
-        tree.addNode(2);
-        tree.addNode(7);
+        tree.addNode(32);
+        tree.addNode(20);
+        tree.addNode(35);
+        tree.addNode(25);
+        tree.addNode(12);
+        tree.addNode(40);
+        tree.addNode(16);
         
         System.out.print("\nIn-order traversing:");
         tree.inOrder(tree.root);
@@ -184,6 +204,7 @@ Node root=null;  // root node
         tree.preOrder(tree.root);
         System.out.print("\nPost-order traversing:");
         tree.postOrder(tree.root);
+        System.out.print("\nHeight of tree: "+tree.height());
         System.out.print("\nEnter node you want to delete: ");
         int n = scan.nextInt();
         tree.deleteNode(n);
@@ -193,7 +214,7 @@ Node root=null;  // root node
         tree.preOrder(tree.root);
         System.out.print("\nPost-order traversing:");
         tree.postOrder(tree.root);
-        
+         System.out.print("\nHeight of tree: "+tree.height());
         System.out.println();
         System.exit(0);
     }

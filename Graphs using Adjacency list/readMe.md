@@ -33,8 +33,10 @@ Adjacency list: https://en.wikipedia.org/wiki/Adjacency_list
 
 7 -> []
 
-### Adjacency list using link list
+### Adjacency list using Hashmap
+
+Gaurav -> [(Name: Jenifer Aniston,Distance: 1), (Name: Kylie Jenner,Distance: 1), (Name: Yanet Garcia,Distance: 2)]
 
 Pratham -> [(Name: Dhinchak Pooja,Distance: 1), (Name: Meena Boy,Distance: 1)]
 
-Gaurav -> [(Name: Jenifer Aniston,Distance: 1), (Name: Kylie Jenner,Distance: 1), (Name: Yanet Garcia,Distance: 2)]
+

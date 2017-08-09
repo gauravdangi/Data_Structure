@@ -38,8 +38,10 @@ public class TrieDataStructure {
          if(temp.child.containsKey(arr[i])){
              temp = temp.child.get(arr[i]);
          }
-         else
+         else{
              flag=0;
+             break;
+         }
         }
         if(flag==1){
             if(temp.isEnd==true)

@@ -60,9 +60,9 @@ public class TrieDataStructure {
        t.insert("abcf");
        t.insert("cdf");
        t.insert("efgh");
-       System.out.println(t.search("abc"));
-       System.out.println(t.search("Gaurav"));
-       System.out.println(t.search("cd"));
-       System.out.println(t.search("abcf"));
+       System.out.println("Search result for 'abc' : "+t.search("abc"));
+       System.out.println("Search result for 'Gaurav' : "+t.search("Gaurav"));
+       System.out.println("Search result for 'cd' : "+t.search("cd"));
+       System.out.println("Search result for 'abcf' : "+t.search("abcf"));
     }   
 }

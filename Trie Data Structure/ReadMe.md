@@ -29,6 +29,7 @@ in bits. In order to speed up the lookup process,multi bit trie schemes were dev
 
 ### Automatic Command completion
 When using an operating system such as Unix, we type in system commands to accomplish certain tasks.
+We can simply the task of typing in commands by providing a command completion facility which automatically types in the command suffix once the user has typed in a long enough prefix to uniquely identify the command. For instance, once the letters psi have been entered, we know that the command must be psidtopgm because there is only one command that has the prefix psi.
 
 ------------------------------------------------------------------------------
 

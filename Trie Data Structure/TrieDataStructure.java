@@ -14,7 +14,7 @@ public class TrieDataStructure {
         for(int i=0;i<chr.length;i++){
             TrieNode t;
             if(!temp.child.containsKey(chr[i])){
-                t = new TrieNode(chr[i]);
+                t = new TrieNode();
                temp.child.put(chr[i],t);
             }
             else{

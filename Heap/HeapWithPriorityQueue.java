@@ -4,6 +4,7 @@ import java.util.*;
 
 /*
  * @author Gaurav
+ * Implementing Heap data structure using PriorityQueue 
  */
 public class HeapWithPriorityQueue {
     private static PriorityQueue<Integer> maxHeap = new PriorityQueue<>((Integer a, Integer b)-> -1*a.compareTo(b));

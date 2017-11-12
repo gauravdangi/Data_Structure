@@ -20,10 +20,8 @@ public class TrieDataStructure {
             else{
              t = temp.child.get(chr[i]);
             }
-              
             temp = t;
         }
-        
         temp.isEnd = true;
     }
     
@@ -46,11 +44,8 @@ public class TrieDataStructure {
         if(flag==1){
             if(temp.isEnd==true)
                 return true;
-                     
         }
-        
         return false;
-    
     }
     
     

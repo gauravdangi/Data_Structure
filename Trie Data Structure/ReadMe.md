@@ -41,10 +41,40 @@ http://blog.xebia.in/index.php/2015/09/28/applications-of-trie-data-structure/
 
 ## Output
 
-Search result for 'abc' : false
+Enter word you want to search: Gaurav
+_____________________________________________________
+
+Definition: Name of a developer
 
 Search result for 'Gaurav' : true
 
-Search result for 'cd' : false
+Do you wish to search again? (1 for Yes and others for No)
 
-Search result for 'abcf' : true
+1
+
+Enter word you want to search: ab
+_____________________________________________________
+
+Do you mean?
+
+abstract
+
+abc xyz
+
+abcf
+
+Search result for 'ab' : false
+
+Do you wish to search again? (1 for Yes and others for No)
+
+1
+
+Enter word you want to search: xyz
+
+_____________________________________________________
+
+Search result for 'xyz' : false
+
+Do you wish to search again? (1 for Yes and others for No)
+
+0
